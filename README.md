@@ -23,10 +23,10 @@ python app.py
 | GET    | `/health`    | Check the service health   |
 | GET    | `/count` | Retrieve the pictures count |
 | GET   | `/picture`    | Retrieve all pictures from DB  |
-| GET | `/picture/<int:id>` | Search for specific picture with ID |
+| GET | `/picture/<int:id>` | Search for specific picture By ID |
 | POST | `/picture` | Create new pictures |
-| PUT | `/picture/<int:id>` | Update picture with ID |
-| DELETE | `/picture/<int:id>` | Delete picture with ID | 
+| PUT | `/picture/<int:id>` | Update picture By ID |
+| DELETE | `/picture/<int:id>` | Delete picture By ID | 
 
 
 ## Technologies Used
